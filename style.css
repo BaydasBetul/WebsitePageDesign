@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+header{
+    background-color: #35424A;
+    color: #FFFFFF;
+}
+nav{
+    border-bottom: 3px solid #a84f89;
+}
+.container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-between;
+margin: 30px 15px;
+padding-top: 20px;
+}
+
+.container a {
+color: #fff;
+text-decoration: none;
+}
+
+#clarusway{
+    margin: 10px;
+}
+
+.container li{
+    list-style-type: none;
+    float: left;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.img{
+    background-image: url('img/showcase.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    min-height: 400px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0px 6%;
+}
+.heading h1{
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    padding-bottom: 0.6rem;
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin: 10px 15px;
+    padding: 20px;
+    height: 100px;
+    background-color: #35424a;
+    align-items: center; 
+}
+#email input{
+    font-size: 14px;
+    padding: 10px;
+    width: 250px;
+}
+#email button{
+    font-size: 14px;
+    padding: 10px;
+    background-color: #F16529;
+    border: 2px solid #F16529;
+    color:#fff;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 20px;
+    height: 150px;
+    background-color: #35424a;
+    align-items: center; 
+}
+.aboutcontainer{
+    
+}
