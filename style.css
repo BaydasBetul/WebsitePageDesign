@@ -108,5 +108,23 @@ footer{
     align-items: center; 
 }
 .aboutcontainer{
-    
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 20px;
+}
+#aboutus{
+    background-color: #35424a;
+    padding: 15px;
+}
+.left{
+    margin: 20px;
+}
+.right{
+    margin: 20px;
+}
+#righticdiv{
+    background-color: #35424a;
+    color: #fff;
+    padding: 20px;
 }
