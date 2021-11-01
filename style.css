@@ -47,10 +47,10 @@ text-decoration: none;
     background-position: center;
     background-size: cover;
     color: #ffffff;
-    min-height: 400px;
+    min-height: 325px;
     text-align: center;
     line-height: 1.5;
-    padding: 0px 6%;
+    padding: 0px 6px;
 }
 .heading h1{
     font-size: 2.5rem;
@@ -82,7 +82,7 @@ text-decoration: none;
 }
 
 main{
-    max-height: 55%;
+    max-height: %;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -98,13 +98,23 @@ main{
     padding: 20px;
     margin: 15px;
 }
+.logo img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    max-height: 125px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0px 6px;
+}
 
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
-    padding: 20px;
+    padding: 40px;
     max-height: 30%;
     background-color: #35424a;
     align-items: center; 
@@ -114,7 +124,7 @@ footer{
     flex-direction: row;
     text-align: left;
     padding: 20px;
-    height: 59vh;
+    height: 60vh;
 }
 #aboutus{
     background-color: #35424a;
@@ -138,7 +148,7 @@ footer{
     justify-content: space-between;
     align-items: stretch;
     text-align: left;
-    height: 59vh;
+    height: 60vh;
     margin: 20px;
     width: 100%;
 }
