@@ -42,47 +42,57 @@
         </section>
     </header>
     <main>
-        <div class="container">
-            <div id="services">
-                <h4>Services</h4>
-                <div class="web">
-                    <h4>Website Design</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sunt veniam iure odit illo magni.
-                    </p>
-                    <p>Pricing: $1,000- $3,000</p>
-                </div>
-                <div class="web">
-                    <h4>Website Maintenance</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sunt veniam iure odit illo magni.
-                    </p>
-                    <p>Pricing: $250 per month</p>
-                </div>
-                <div class="web">
-                    <h4>Website Hosting</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sunt veniam iure odit illo magni.
-                    </p>
-                    <p>Pricing: $25 per month</p>
+        <div class="servicescontainer">
+            <div id="firstservices">
+                <h4>Services</h4><br>
+                <div id="webbox">
+                    <div class="web">
+                        <h4>Website Design</h4><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nulla dolorem, vitae dolores
+                            tempora sint reprehenderit ea facilis laborum ipsam enim qui eos ex placeat, provident
+                            facere.
+                        </p><br>
+                        <p>Pricing: $1,000- $3,000</p>
+                    </div>
+                    <div class="web">
+                        <h4>Website Maintenance</h4><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nulla dolorem, vitae dolores
+                            tempora sint reprehenderit ea facilis laborum ipsam enim qui eos ex placeat, provident
+                            facere.
+                        </p><br>
+                        <p>Pricing: $250 per month</p>
+                    </div>
+                    <div class="web">
+                        <h4>Website Hosting</h4><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nulla dolorem, vitae dolores
+                            tempora sint reprehenderit ea facilis laborum ipsam enim qui eos ex placeat, provident
+                            facere.
+                        </p><br>
+                        <p>Pricing: $25 per month</p>
+                    </div>
                 </div>
             </div>
-            <div id="quote">
-                <h4>Get A Quote</h4>
-                <form action="result.html" method="get">
-                    <div>
-                        <label for="ad">isim:</label>
-                        <input type="text" name="isim" id="ad" placeholder="Name">
-                    </div>
-                    <div>
-                        <label for="mail">Email:</label>
-                        <input type="email" name="Girilen E-mail" id="mail" placeholder="Email Address">
-                    </div>
-                    <div>
-                        <label for="message"> Yorum lütfen</label>
-                        <br>
-                        <textarea name="" id="message" style="resize: none; width: 75%;"
-                            placeholder="Message"></textarea>
-                    </div>
-                    <button type="submit">Send</button>
-                </form>
+            <div class="quote">
+                <div id="formservices">
+                    <form action="result.html" method="get">
+                        <label style="font-weight: bold;">Get A Quote</label><br><br>
+                        <div>
+                            <label for="ad">Name</label><br>
+                            <input type="text" name="isim" id="ad" placeholder="Name">
+                        </div>
+                        <div>
+                            <label for="mail">Email</label><br>
+                            <input type="email" name="Girilen E-mail" id="mail" placeholder="Email Address">
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <br>
+                            <textarea name="" id="message" style="resize: none; width: 100%;"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
             </div>
 
         </div>
