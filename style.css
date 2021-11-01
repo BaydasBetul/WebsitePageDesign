@@ -112,6 +112,7 @@ footer{
     flex-direction: row;
     text-align: left;
     padding: 20px;
+    height: 59vh;
 }
 #aboutus{
     background-color: #35424a;
