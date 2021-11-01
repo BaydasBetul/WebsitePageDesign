@@ -11,7 +11,9 @@ html, body {
 header{
     background-color: #35424A;
     color: #FFFFFF;
+    max-height: 25%;
 }
+
 nav{
     border-bottom: 3px solid #a84f89;
 }
@@ -20,8 +22,7 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content:space-between;
-margin: 30px 15px;
-padding-top: 20px;
+padding: 30px 20px;
 }
 
 .container a {
@@ -81,6 +82,7 @@ text-decoration: none;
 }
 
 main{
+    max-height: 55%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -103,7 +105,7 @@ footer{
     align-items: center;
     justify-content:center;
     padding: 20px;
-    height: 150px;
+    max-height: 30%;
     background-color: #35424a;
     align-items: center; 
 }
@@ -153,7 +155,7 @@ footer{
     border: 1px solid #c0bfbf;
     margin: 3px;
     padding: 20px;
-    line-height: 1;
+    line-height:  1.3em;;
 }
 .quote{
     width:35%;
